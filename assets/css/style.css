@@ -1,11 +1,6 @@
 /**
-* Template Name: iPortfolio
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
+* Author: Burhan
+* Updated: July 2,2023
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -303,14 +298,93 @@ h6 {
   }
 }
 
+/*--------------------------------------------------------------
+# Portfolio Details
+--------------------------------------------------------------*/
+.portfolio-details {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  padding-top: 40px;
+  background-color: #000;
+
+}
+
+.portfolio-details .portfolio-details-slider img {
+  width: 100%;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #05090c;
+  opacity: 1;
+  border: 1px solid #149ddd;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #05090c;
+
+}
+
+.portfolio-details .portfolio-info {
+  background-color: forestgreen;
+  box-shadow: 0 4px 13px rgba(33, 102, 67, 0.2);
+  border-radius: 10px;
+  padding: 30px;
+  /* add this */
+  height: 225px;
+  /* add this */
+  margin: 0 auto;
+}
+
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.portfolio-details .portfolio-info ul li+li {
+  margin-top: 10px;
+}
+
+.portfolio-details .portfolio-description {
+  padding-top: 30px;
+}
+
+.portfolio-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description p {
+  padding: 0;
+}
 
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
   padding: 20px 0;
-  background: #f9f9f9;
+  background: #05090C;
+
 }
+
 
 .breadcrumbs h2 {
   font-size: 26px;
