@@ -9,8 +9,8 @@
 --------------------------------------------------------------*/
 
 body {
-  background-color: #000; /* Set background color to black */
-  color: #272829;
+  background-color: #05090c; /* Set background color to black */
+  color: #ffffff;
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
@@ -34,6 +34,38 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+
+/*--------------------------------------------------------------
+# download button
+--------------------------------------------------------------*/
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-lg {
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+}
+
+.btn-light-magenta {
+  color: #fff;
+  background-color: #FF00FF;
+  border-color: #FF00FF;
+}
+
 
 /*--------------------------------------------------------------
 # Header
