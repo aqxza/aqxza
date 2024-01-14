@@ -60,7 +60,7 @@ li code {
   border-radius: 4px;
 }
 
-ul {
+ul.myList {
   list-style-type: disc;
 }
 
