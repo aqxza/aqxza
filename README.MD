@@ -10,7 +10,8 @@
 
 - 💬 Ask me about **Anime**
 
-- 📫 How to reach me **burhanverse.t.me**
+- 📫 How to reach me [**Telegram**](https://burhanverse.t.me)
+
 
 ## GitHub Stats:
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Burhanverse&theme=tokyonight&hide_border=false)<br/>
