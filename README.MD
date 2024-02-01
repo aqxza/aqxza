@@ -14,6 +14,8 @@
 
 
 ## GitHub Stats:
-![](https://github-readme-streak-stats.herokuapp.com/?user=Burhanverse&theme=tokyonight&hide_border=false)<br/>
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Burhanverse&theme=tokyonight&hide_border=false">
+</div><br/>
 
 ---
