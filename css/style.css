@@ -2,14 +2,7 @@
 :root {
 
   /* You can change the font family in the whole design here. (You need to add the font family to the codes.) */
-  @font-face {
-    font-family: 'Linotte-Regular';
-    src: url('https://github.com/Burhanverse/Burhanverse/blob/jekyll/assets/Linotte-Regular.woff2') format('woff2'),
-         url('https://github.com/Burhanverse/Burhanverse/blob/jekyll//assets/Linotte-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-  --font_family: "Linotte-Regular";
+  --font-family: 'Nunito', sans-serif;
   --font_size: 16px;
 
   /* You can change the background color by typing the color code. (If you do not enter a background-image image, the background-color will be active.) */
