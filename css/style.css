@@ -1,8 +1,10 @@
 /* From the :root element you can easily change the colors of the design, its size and so on. */
 :root {
 
+    @import url(https://db.onlinewebfonts.com/c/1c1304897225af0847614d4bc5430c5e?family=Linotte-Regular);
   /* You can change the font family in the whole design here. (You need to add the font family to the codes.) */
-  --font-family: 'Nunito', sans-serif;
+  
+  --font_family: "Linotte-Regular";
   --font_size: 16px;
 
   /* You can change the background color by typing the color code. (If you do not enter a background-image image, the background-color will be active.) */
