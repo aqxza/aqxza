@@ -1,9 +1,14 @@
 /* From the :root element you can easily change the colors of the design, its size and so on. */
 :root {
 
-  @import url(https://db.onlinewebfonts.com/c/1c1304897225af0847614d4bc5430c5e?family=Linotte-Regular);
   /* You can change the font family in the whole design here. (You need to add the font family to the codes.) */
-
+  @font-face {
+    font-family: 'Linotte-Regular';
+    src: url('../assets/Linotte-Regular.woff2') format('woff2'),
+         url('../assets/Linotte-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
   --font_family: "Linotte-Regular";
   --font_size: 16px;
 
