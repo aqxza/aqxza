@@ -4,8 +4,8 @@
   /* You can change the font family in the whole design here. (You need to add the font family to the codes.) */
   @font-face {
     font-family: 'Linotte-Regular';
-    src: url('../assets/Linotte-Regular.woff2') format('woff2'),
-         url('../assets/Linotte-Regular.woff') format('woff');
+    src: url('https://github.com/Burhanverse/Burhanverse/blob/jekyll/assets/Linotte-Regular.woff2') format('woff2'),
+         url('https://github.com/Burhanverse/Burhanverse/blob/jekyll//assets/Linotte-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
