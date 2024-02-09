@@ -13,19 +13,16 @@
 
   /* You can change the frame thickness and color of the picture by typing the number of pixels and the color code. */
   --image_border_color: rgba(255, 255, 255, 0.3);
-  --image_border_px: 3px;
+  --image_border_px: 4px;
 
   /* You can change the width and size of the picture by typing the number of pixels. */
-  --image_width: 140px;
-  --image_height: 140px;
+  --image_width: 125px;
+  --image_height: 125px;
 
   /* You can change the colors of the title and description section by typing the color codes. */
   --title_color: #fff;
   --description_color: #A6F6DB;
-
-  /* You can change the colors of social media icons by changing the color code. */
-  --svg_color: #fff;
-
+  
   /* You can change the background, text color and active color of the menu by changing the color codes. */
   --menu_background_color: rgba(255, 255, 255, 0.3);
   --menu_text_color: #fff;
@@ -60,6 +57,11 @@ body {
   flex-wrap: wrap;
 }
 
+a {
+    color: --footer_background_color; /* This makes the anchor tag inherit the color from its parent */
+    text-decoration: none; /* This removes the underline from the anchor tag */
+}
+
 .flex_column_center {
   display: flex;
   flex-direction: column;
@@ -91,11 +93,14 @@ body {
 }
 
 .header_img img {
+  display: flex;
+  justify-content: center;
   height: var(--image_height);
   width: var(--image_width);
   border: var(--image_border_px) solid var(--image_border_color);
   border-radius: 50%;
   margin-bottom: 1em;
+  
 }
 
 .header_text h1 {
@@ -279,3 +284,25 @@ main {
   }
 
 }
+#musicControlBtn {
+    cursor: pointer;
+    color: white;
+  font-size: 34px;
+  /* icon size */
+  margin: 0 10px;
+  /* horizontal spacing */
+  border-radius: 50%;
+  /* Adjust for shape */
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 40px;
+  /* Icon width */
+  height: 40px;
+  /* Icon height */
+  display: inline-flex;
+  align-items: center;
+  /* Center align vertically */
+  justify-content: center;
+  /* Center align horizontally */
+}
+
+/* Adjust styles as needed for your page */
