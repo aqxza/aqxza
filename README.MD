@@ -9,6 +9,7 @@
 
 - 📫 How to reach me [**Telegram**](https://burhanverse.t.me)
 
+![My scrobbles](https://lastfm-cyan.vercel.app/api?user=AquaListens&count=4&width=500&bg_color=1A1B27)
 
 ## GitHub Stats:
 <div align="center">
