@@ -13,7 +13,7 @@
 
 ## GitHub Stats:
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Burhanverse&theme=tokyonight&hide_border=false">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Burhanverse&theme=tokyonight&hide_border=true">
 </div><br/>
 
 ---
