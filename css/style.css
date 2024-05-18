@@ -12,7 +12,7 @@
 
   /* You can change the background color by typing the color code. (If you do not enter a background-image image, the background-color will be active.) */
   --background_color: rgba(255, 255, 255, 0.2);
-  --background_image: url("../img/bg.png");
+  --background_image: url("../img/bg.jpg");
 
   /* You can change the frame thickness and color of the picture by typing the number of pixels and the color code. */
   --image_border_color: rgba(255, 255, 255, 0.3);
@@ -71,21 +71,6 @@ a {
     text-decoration: none; /* This removes the underline from the anchor tag */
 }
 
-/* lastfm css */
-.lastfm {
-  max-width: 100%;
-  padding: 0.6rem;
-  margin-bottom: auto;
-  box-sizing: border-box;
-}
-img {
-  width: 100%;
-  height: auto;
-  margin-top: 1.3em;
-  max-width: 500px;
-}
-
-/*general*/
 .flex_column_center {
   display: flex;
   flex-direction: column;
@@ -284,6 +269,20 @@ main {
 .footer_a_item {
   color: var(--footer_link_text_color);
   text-decoration: none;
+}
+
+/* lastfm css */
+.lastfm {
+  max-width: 100%;
+  padding: 0.8rem;
+  margin-bottom: auto;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  margin-top: 1.3em;
+  max-width: 500px;
 }
 
 /* Responsive Codes */
