@@ -1,15 +1,18 @@
 /* From the :root element you can easily change the colors of the design, its size and so on. */
+.nunito-<uniquifier> {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 :root {
-
-    @import url(https://db.onlinewebfonts.com/c/1c1304897225af0847614d4bc5430c5e?family=Linotte-Regular);
   /* You can change the font family in the whole design here. (You need to add the font family to the codes.) */
-  
-  --font_family: "Linotte-Regular";
+  --font_family: "Nunito", sans-serif;
   --font_size: 16px;
 
   /* You can change the background color by typing the color code. (If you do not enter a background-image image, the background-color will be active.) */
   --background_color: rgba(255, 255, 255, 0.2);
-  --background_image: url("../img/bg.jpg");
+  --background_image: url("../img/bg.png");
 
   /* You can change the frame thickness and color of the picture by typing the number of pixels and the color code. */
   --image_border_color: rgba(255, 255, 255, 0.3);
@@ -41,7 +44,7 @@
   /* You can change the background, text color and active color of the footer area by changing the color codes. */
   --footer_background_color: rgba(255, 255, 255, 000);
   --footer_text_color: #fff;
-  --footer_link_text_color: #A6F6DB;
+  --footer_link_text_color: #fff;
 }
 
 /* Basic Codes */
