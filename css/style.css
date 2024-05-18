@@ -65,6 +65,21 @@ a {
     text-decoration: none; /* This removes the underline from the anchor tag */
 }
 
+/* lastfm css */
+.lastfm {
+  max-width: 100%;
+  padding: 0.6rem;
+  margin-bottom: auto;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  margin-top: 1.3em;
+  max-width: 500px;
+}
+
+/*general*/
 .flex_column_center {
   display: flex;
   flex-direction: column;
